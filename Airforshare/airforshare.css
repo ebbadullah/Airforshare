@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+img{
+    width: 130px;
+    position: absolute;
+    margin-top: 20px;
+}
+nav{
+    position: relative;
+    top: 30px;
+}
+
+
+
+nav a {
+    
+    margin-left: 35px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.4s ease-in-out;
+}
+nav a:hover{
+    color: #4b42f5;
+} 
+
+
+nav a.login-register {
+    color: #4b42f5;
+    transition: 0.5s ease-in-out;
+    font-weight: bold;
+}
+nav a.login-register:hover{
+   color:rgba(128, 0, 128, 1) ; 
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 40px;
+    background-color: #fff;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 900px;
+    height: 400px;
+}
+
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu-icon .menu-line {
+    width: 30px;
+    height: 4px;
+    background-color: #765CFF;
+    margin: 4px 0;
+}
+
+.text-area {
+    margin-top: 20px;
+   
+}
+
+.text-area h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.text-area textarea {
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.text-area button {
+    background-color: #f5f5f5;
+    border: 3px solid #696969;
+    color: #000000;
+    padding: 20px 60px;
+  margin-left: 700px;
+  transition: 0.5s ease-in-out;
+    cursor: pointer;
+    font-size:  19px;
+    width: 200px;
+}
+.ttt{
+    margin-top: 70px;
+    }
+.text-area button:hover {
+
+    border-color: rgba(128, 0, 128, 1) rgba(138, 43, 226, 1) rgba(75, 0, 130, 1 ) rgba(138, 43, 226, 1);
+    
+    background-color:#ffffff;
+
+}
